@@ -1,0 +1,3 @@
+Here, in this folder, all the backend file that are created in JSP are present.
+The .java file that are actually the servlet file are present in src folder
+All the .jsp file must be saved to public_html folder
