@@ -1,0 +1,82 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Get Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/mystyle.css">
+        <script>
+            function move_to_stu_register()
+            {
+                window.open("register_student.jsp","_self");
+            }
+        </script>
+    </head>
+    <body class="container-fluid" style="height: 700px;align-content: center">
+        <div class="row" style="width: 100%;height: 100px;background-color: rgb(1,31,71); border-radius: 10px 50px 10px 50px;">
+            <div class="col">
+                <p class="h1" ><a href="index.html" style="text-decoration:none;color:white;font-size: 80px;margin-left: 15px;">GetAnswer</a></p>
+            </div>  
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col">
+                <div class="row" style="height: 25px;"></div>
+                <div class="row">
+                    <div class="col"></div>                    
+                    <div class="col">
+                        <button id="b1" type="button" onclick="move_to_stu_register()"> 
+                            Signup
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 100px; height:310px; ">
+            <div class="col"></div>
+            <div class="col" style="border: 2px solid #2F3A75; border-radius: 10px 60px 10px 60px; color:white; padding: 15px; font-size: 18px;">
+                <form action="loginstudentsubmit" method="post">
+                    <div class="row"><h3 id="heading1">Login Here</h3></div>
+                    <div class="row" style="height:30px; ">
+                    </div>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col">
+                            <input id="field1" type='email' name="email" placeholder='Email Address'>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col">
+                            <div class="row"><input id="field1" type='password' name="pass" placeholder='password'></div>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="row" style="height:30px; ">
+                    </div>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col">
+                            <div class="row" style="align-items: center;"><button id="b3" class="btn btn-primary">Login</button></div>
+                        </div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </div>  
+                </form>
+            </div>                      
+            <div class="col"></div>
+        </div>  
+        <div class="row" style="height:220px;">
+        </div>
+        <div class="row" style="height: 50px;color:white; background-color: #011F47;">
+            <div class="col"></div>
+            <p style="font-size:20px;">Jayant Sharma</p>
+            <div class="col"></div>
+        </div>
+    </body>
+</html>
