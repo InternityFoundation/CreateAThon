@@ -1,0 +1,179 @@
+body{
+	font:15px/1.5 Arial, Helvetica, sans-srif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+/*Global*/
+
+.container{
+	width:95%;
+	margin: auto;
+	overflow: hidden;
+}
+.highlight{
+	font-size: 20px;
+	color: #e8491d;
+	font-weight: bold;
+}
+.button_2{
+	height: 38px;
+	background: #f3561f;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+	
+}
+.button_1{
+	height: 38px;
+	background: #f3561f;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+.dark{
+	padding: 15px;
+	background: #35424a;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*dropdown*/
+.dropdown:hover .dropdown-menu {
+	display:block;
+}
+
+
+/*Header*/
+header{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 0px;
+	min-height: 20px;
+	border-bottom: #f6531f 3px solid;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding-bottom: 0%;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+header #branding{
+	float: left;
+}
+header #branding h1{
+	margin: 0;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+header nav{
+	float: right;
+}
+header .highlight, header .current a{
+	color: #f6531f;
+	font-weight: bold;
+	font-size: 20px;
+}
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+#images{
+	width: auto;
+	height: 135px;
+
+}
+#quantity{
+	margin-left: -16px;
+}
+#quantity-label{
+	margin-left:-16px;
+}
+
+img.details{
+	width:auto;
+	margin: 15px auto;
+}
+
+
+/*newsletter*/
+#newsletter{
+	align-self: bottom;
+	padding: 6px;
+	margin-top: 100px;
+	color: #ffffff;
+	background: #35424a;
+	border-top: #f6531f 3px solid;
+}
+#newsletter h1{
+	float: left;
+	font-size: 15px;
+}
+#newsletter form{
+	float: right;
+	margin-top: 8px;
+}
+#newsletter input[type="email"]{
+	padding: 10px;
+	height: 25px;
+	width: 250px;
+}
+/*boxes*/
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+#boxes .box img{
+	width: 90px;
+	height: 100px;
+}
+/*sidebar*/
+aside#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+/*main-col*/
+article#main-col{
+	float: left;
+	width: 65%;
+}
+
+/*log*/
+.hide{
+	display: none;
+}
+.fom_1{
+	display: inline-block;
+	text-align: center;
+	padding: 5px;
+	width: 90%;
+}
+/*footer*/
+footer{
+	float: bottom;
+	padding: 6px;
+	align-self: bottom;
+	margin-top: 0%;
+	color: #ffffff;
+	background-color: #f6531f;
+	text-align: center;
+}
